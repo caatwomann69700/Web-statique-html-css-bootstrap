@@ -1,0 +1,188 @@
+.bg-orange-crevette {
+    background-color: #f69c85;
+}
+
+.pre-navbar .info {
+    color: white;
+}
+
+.pre-navbar .info-item {
+    margin: 0 10px;
+}
+
+.pre-navbar .social-icons .icon-link {
+    color: white;
+    margin: 0 5px;
+    font-size: 1.2rem;
+}
+
+.pre-navbar .btn-success {
+    background-color: #ABD376;
+}
+/* gggggggggggggggg */
+.navbar-brand span {
+    font-family: "Playwrite CU", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+   
+}
+
+.header-container-fluid {
+    position: relative;
+    z-index: -1;
+    
+}
+
+.header-image {
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 9%;
+    transform: translateY(-50%);
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.header-title {
+    font-size: 3rem; /* Taille de la police pour le titre */
+    color: #f69c85; /* Couleur du titre */
+}
+
+.header-description {
+    font-size: 1rem; /* Taille de la police pour la description */
+    color: #000; /* Couleur de la description */
+}
+
+.header-btn {
+    color: #fff; /* Couleur du texte du bouton */
+    background-color: #ABD376; 
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/* Styles pour les nouvelles cartes */
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(20px);
+  }
+  
+  .card-img-top {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .btn-success {
+    background-color: #ABD376;
+    border: none;
+  }
+  
+  .btn-success:hover {
+    background-color: #8DA65A;
+  }
+  
+  /* Styles pour la section avec l'image et le texte */
+.container-fluid {
+    padding: 30px 0;
+    
+    background-color: #f9f9f9;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .btn-success {
+    background-color: #ABD376;
+    border: none;
+  }
+  
+  .btn-success:hover {
+    background-color: #8DA65A;
+  }
+  
+  /* Styles pour la section avec les images */
+
+  h2 {
+    color: #333; /* Couleur du texte */
+  }
+  
+  .img-fluid {
+    width: 100%; /* Image occupe 100% de la largeur de la colonne */
+    height: auto; /* Hauteur automatique pour maintenir les proportions */
+    border-radius: 8px; /* Coins arrondis */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
+  }
+  
+  .img-fluid:hover {
+    transform: scale(1.05); /* Agrandissement au survol */
+    transition: transform 0.3s ease; /* Transition fluide */
+  }
+  
+ 
+  
+
+
+  .bg-orange-crevette {
+    background-color: #f69c85;
+    color: white; /* Couleur du texte à l'intérieur du footer */
+    padding: 20px 0; /* Ajoute un espace de remplissage en haut et en bas du footer */
+}
+
+.footer img {
+    vertical-align: middle; /* Ajuste l'alignement vertical du logo */
+}
+
+.footer-h1 {
+    font-family: 'Playwrite CU', cursive;
+    font-size: 1rem; /* Ajustez la taille de la police selon vos besoins */
+    color: white; /* Assurez-vous que la couleur du texte est visible sur le fond orange */
+}
+
+/* Media Queries */
+@media (max-width: 767.98px) {
+    .header h1 {
+        font-size: 1.8em;
+    }
+    .header h2 {
+        font-size: 1.5em;
+    }
+    .header p {
+        font-size: 1em;
+    }
+    .header .btn {
+        font-size: 1em;
+    }
+    .navbar-nav {
+        text-align: center;
+    }
+    .navbar-nav .nav-link {
+        margin: 10px 0;
+    }
+}
